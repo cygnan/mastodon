@@ -3,7 +3,7 @@
   margin: 0 auto;
   margin-top: 40px;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 740px) {
     width: 100%;
     margin: 0;
   }
@@ -40,6 +40,22 @@
       font-family: 'mastodon-font-display', sans-serif;
       font-weight: 500;
       font-size: 14px;
+    }
+  }
+}
+
+.compose-standalone {
+  .compose-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      margin-top: 0;
+      padding: 20px;
     }
   }
 }
