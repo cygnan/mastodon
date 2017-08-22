@@ -7,6 +7,8 @@ function loaded() {
   const React = require('react');
   const ReactDOM = require('react-dom');
   const mountNode = document.getElementById('mastodon-timeline');
+  document.getElementById('mastodon-timeline').style.overflow-anchor = 'none';
+  alert('Set overflow-anchor.');
 
   if (mountNode !== null) {
     const props = JSON.parse(mountNode.getAttribute('data-props'));
