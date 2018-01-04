@@ -483,6 +483,7 @@
       overflow: hidden;
       border-radius: 4px;
       box-shadow: 0 0 6px rgba($black, 0.1);
+      overflow-anchor: none;
 
       .column-header {
         color: inherit;
