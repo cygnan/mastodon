@@ -30,7 +30,7 @@ module AccountFinderConcern
     end
 
     def account
-      scoped_accounts.order(id: :asc).take
+      scoped_accounts.take
     end
 
     private
