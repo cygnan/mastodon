@@ -61,7 +61,7 @@ RSpec.describe FetchAtomService, type: :service do
       end
 
       context 'content_type is activity+json' do
-        let(:content_type) { 'application/activity+json' }
+        let(:content_type) { 'application/activity+json; charset=utf-8' }
         let(:body) { json }
 
         it { is_expected.to eq [1, { prefetched_body: body, id: true }, :activitypub] }
