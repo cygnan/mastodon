@@ -28,4 +28,5 @@ Disallow: /
 User-agent: *
 Disallow: /media
 Disallow: /media_proxy/
+Disallow: /interact/
 
